@@ -1,5 +1,4 @@
 <!DOCTYPE html PUBLIC '-// W3C // DTD XHTML 1.0 Strict //EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>
-
 <html xmlns="http://www.w3.org/1999/xhtml"xml:lang="es">
 	<head>
 		<title> El tiempo en Andalucia </title>
@@ -12,7 +11,7 @@
 		<ul>
 			<li> Temperatura maxima prevista: {{ temp_max[count] }} C </li>
 			<li> Temperatura minima prevista: {{ temp_min[count] }} C </li>
-			<li> Viento: {{ viento[count] }} Km/h Direccion {{ direccion[count] }}</li>
+			<li> Viento: {{ viento[count] }} Km/h Direccion: {{ direccion[count] }}</li>
 		</ul>
 		{% set count = count + 1 %}
 		{% endfor %}
